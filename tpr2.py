@@ -65,7 +65,7 @@ print('Normalized eigenvector: %s' % eigenvector)
 criterias_eigenvectors = []
 for i in range(0, len(criterias)):
     print '\n'
-    print('On criteria %s' % criterias[i])
+    print('Criteria: %s' % criterias[i])
     per_criteria_matrix = [[None for _ in range(0, len(criterias))] for _ in range(0, len(criterias))]
     for j in range(0, len(alternatives)):
         per_criteria_matrix[j][j] = scale[0]['value']
